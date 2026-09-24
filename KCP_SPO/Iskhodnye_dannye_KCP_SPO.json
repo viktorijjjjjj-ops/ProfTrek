@@ -1,0 +1,28 @@
+{
+  "project": "КЦП СПО: региональный кадровый контур",
+  "campaign": {
+    "year": 2027,
+    "status": "draft",
+    "region": "Указать субъект Российской Федерации",
+    "data_status": "demo"
+  },
+  "participants": [
+    {"code": "REG-01", "type": "customer", "organization": "Региональный орган управления образованием", "role": "Руководитель проекта", "person": "Назначить ФИО"},
+    {"code": "REG-02", "type": "coordinator", "organization": "Региональный орган управления образованием", "role": "Руководитель кампании КЦП", "person": "Назначить ФИО"},
+    {"code": "REG-05", "type": "employment_service", "organization": "Региональная служба занятости населения", "role": "Ответственный за данные рынка труда", "person": "Назначить ФИО"},
+    {"code": "REG-06", "type": "employer", "organization": "Работодатели и объединения работодателей региона", "role": "Представитель работодателя", "person": "Назначить по организации"},
+    {"code": "REG-07", "type": "spo", "organization": "Профессиональные образовательные организации региона", "role": "Руководитель ПОО", "person": "Назначить по ПОО"},
+    {"code": "REG-11", "type": "committee", "organization": "Региональный межведомственный штаб", "role": "Председатель штаба", "person": "Назначить ФИО"}
+  ],
+  "initial_data": {
+    "municipalities": ["Муниципалитет А", "Муниципалитет Б", "Муниципалитет В", "Муниципалитет Г", "Муниципалитет Д"],
+    "industries": ["Промышленность", "Здравоохранение", "Строительство", "Сервис", "Транспорт"],
+    "professions": [
+      {"name": "Электромонтер", "employer_demand": 260, "employment_service_vacancies": 112, "spo_offer": 210},
+      {"name": "Медицинская сестра", "employer_demand": 220, "employment_service_vacancies": 96, "spo_offer": 190},
+      {"name": "Сварщик", "employer_demand": 180, "employment_service_vacancies": 74, "spo_offer": 160},
+      {"name": "Повар", "employer_demand": 145, "employment_service_vacancies": 51, "spo_offer": 170},
+      {"name": "Автомеханик", "employer_demand": 120, "employment_service_vacancies": 48, "spo_offer": 90}
+    ]
+  }
+}
